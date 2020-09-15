@@ -11,3 +11,4 @@ const tail = function(arr) {
 }
 
 assertEqual(tail([1, 2, 3]),2);
+
