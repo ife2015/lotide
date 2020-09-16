@@ -10,11 +10,13 @@ const eqArrays = function(array1, array2) {
 
   const firstArray = array1.map((element, index) =>{
     return element === array2[index]; 
-  }).every(element => true);
+  }).every(element => element === true);
 
   return firstArray;
 }; 
 
-assertEqual(eqArrays([1, 2, 3], [1, 2, "3"]),true); 
+
+
+assertEqual(eqArrays([1, 2, 3], [1, 2, 3]),true); 
 
 
