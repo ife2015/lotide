@@ -1,9 +1,4 @@
-const eqArrays = function(array1, array2) {
-  const firstArray = array1.map((element, index) =>{
-    return element === array2[index]; 
-  }).every(element => element === true);
-  return firstArray; 
-}; 
+const eqArrays = require(`./eqArrays`); 
 
 const assertArraysEqual = function(array1, array2, callEqArray) {
   if (callEqArray(array1,array2)) {
@@ -30,5 +25,5 @@ const map = function(array, callback) {
 
 //console.log(map(words, word => word[0]));
 
-assertArraysEqual(map(words, word => word[0]), ['g','c','t','m','t'], eqArrays); 
-
+// assertArraysEqual(map(words, word => word[0]), ['g','c','t','m','t'], eqArrays); 
+module.exports = map;

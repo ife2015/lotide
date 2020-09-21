@@ -21,5 +21,7 @@ const countLetter = function(str) {
 
 
 
-let result = countLetter("lighthouse in the house");
-console.log(assertEqual(result["o"], 2));
+// let result = countLetter("lighthouse in the house");
+// console.log(assertEqual(result["o"], 2));
+
+module.exports = countLetter;
