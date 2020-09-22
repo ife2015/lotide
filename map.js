@@ -8,9 +8,6 @@ const assertArraysEqual = function(array1, array2, callEqArray) {
   }
 };
 
-
-const words = ["ground", "control", "to", "major", "tom"];
-
 const map = function(array, callback) {
  
   const results = []; 
@@ -24,6 +21,6 @@ const map = function(array, callback) {
 }
 
 //console.log(map(words, word => word[0]));
-
+// const words = ["ground", "control", "to", "major", "tom"];
 // assertArraysEqual(map(words, word => word[0]), ['g','c','t','m','t'], eqArrays); 
 module.exports = map;

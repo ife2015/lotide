@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@ife2020/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "compilation of function library",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,8 @@
     "type": "git",
     "url": "git+https://github.com/ife2015/lotide.git"
   },
-  "author": "",
+  "author": "Ife Olaifa",
+  "email": "ifeolaifa5@gmail.com", 
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ife2015/lotide/issues"
