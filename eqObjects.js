@@ -1,10 +1,5 @@
-
-const assertEqual = require(`./assertEqual`); 
-
-
 const eqObjects = function (object1, object2) {
   const emptArray = [];
-
 
   for (let dataType in object2) {
     if (Array.isArray(object2[dataType]) === false) {
@@ -25,6 +20,5 @@ const eqObjects = function (object1, object2) {
 
 module.exports = eqObjects;
 
-// const result = eqObjects({ c: "1", d: ["2", 3] }, { c: "1", d: ["2", 3, 4] });
-// assertEqual(result,false);
+
 
